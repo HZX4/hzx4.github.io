@@ -1,0 +1,163 @@
+body{
+  margin:0;
+  width:100%;
+  overflow-x:hidden;
+}
+section{
+  position: relative;
+  float: left;
+}
+.content{
+  position:relative;
+  width:960px;
+  margin:0 auto;
+}
+
+#splash{
+  overflow: hidden;
+}
+#splash div:not(#splash-text){
+  z-index: 1;
+}
+#splash img{
+  z-index: -1;
+}
+#splash div:not(#splash-text), #splash img{
+  position: absolute;
+  height:inherit;
+}
+#splash h1{
+  font-size: 100px;
+}
+#learn-more-button{
+  font-size:20px;
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 12px;
+  margin-top:20px;
+
+}
+#learn-more-button:hover{
+  color:#111;
+  background-color:#fff;
+  cursor: pointer;
+}
+
+
+#greeter{
+  height:100%;
+  background-color: #fff;
+}
+#greeter-text-container{
+  box-sizing: border-box;
+  padding:10%;
+  font-family: 'Lora', serif;
+}
+#greeter-text-container h1{
+  font-size:60px;
+  color:#111;
+}
+#social-container{
+  height:32px;
+  margin-top:25px;
+}
+#social-container img{
+  height:inherit;
+  width:32px;
+}
+#greeter-image{
+  overflow:hidden;
+}
+#greeter-image img{
+  width:60%;
+}
+
+#work{
+  min-height:400px;
+  width:100%;
+}
+#work .content{
+  min-height:600px;
+}
+
+
+#curtain{
+
+}
+#curtain p{
+  color:#555;
+}
+#curtain img{
+  width:80%;
+  margin:0 10%;
+}
+
+
+
+
+
+
+
+
+
+#about{
+  min-height:1000px;
+  background-color: #f5f5f5;
+}
+#sill{
+  overflow-x: scroll;
+}
+
+
+
+
+
+
+#footer{
+  height:600px;
+}
+#footer-image-container{
+  overflow:hidden;
+  z-index: -1;
+}
+#footer div{
+  position: absolute;
+}
+#footer h1{
+  color: #fff;
+  font-size:80px;
+  margin-left: 10%;
+  font-family: 'Lora', serif;
+  margin-bottom: 0;
+}
+#footer div:not(#footer-image-container){
+  background-color: rgba(17, 17, 17, 0.9);
+}
+#footer ul{
+  color:#fff;
+  margin-left: 11%;
+  font-family: 'Lora', serif;
+  list-style: none;
+  padding-left: 0;
+}
+#footer ul li{
+  margin: 10px 0;
+  font-size: 20px;
+}
+#footer a:visited{
+  color:#fff;
+}
+
+
+
+
+.grid{
+  font-family: 'Open Sans', sans-serif;
+}
+.font0{
+  font-family: 'Lora', serif;
+}
+.font1{
+  font-family: 'Open Sans', sans-serif;
+}

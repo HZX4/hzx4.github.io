@@ -45,7 +45,16 @@
 .black{
   color:#000;
 }
+.standard-grey{
+  color:#111;
+}
+.standard-light-grey{
+  color:#555;
+}
 .remove-h-margin{
   margin-top:0;
   margin-bottom:0;
+}
+.whitebg{
+  background-color: #fff;
 }

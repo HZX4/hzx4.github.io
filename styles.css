@@ -113,6 +113,10 @@ section{
 .unslider-arrow:hover{
   opacity:0.5;
 }
+#interests li{
+  list-style: circle !important;
+  margin-left: 30px;
+}
 
 
 

@@ -14,6 +14,18 @@ $(function(){
   $("#greeter-image img").css("marginTop", gi);
   $("#splash").height($(window).height()-100);
   var y = ($("#splash-text").parent().height()-$("#splash-text").height())/2;
-  console.log(y);
+  //console.log(y);
   $("#splash-text").css("margin-top", y);
+
+  $('.my-slider').unslider({infinite:true});
+  $(".unslider-arrow").each(function(){
+    $(this).css("top", ($(this).parent().height()-$(this).height())/2);
+  })
+
+  $(".centermeV").each(function(){
+    $(this).css("marginTop", ($(this).parent().height()-$(this).height())/2);
+  });
+  $(".centermeH").each(function(){
+    $(this).css("marginTop", ($(this).parent().width()-$(this).width())/2);
+  });
 });
